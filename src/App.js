@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import LoginForm from './components/LoginForm';
+import AppRouter from './AppRouter';
 
 function App() {
   return (
     <div className="App">
-      <LoginForm/>
+      <AppRouter/>
     </div>
   );
 }
